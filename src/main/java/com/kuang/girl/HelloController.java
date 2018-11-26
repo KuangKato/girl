@@ -30,7 +30,7 @@ public class HelloController {
 //    @RequestMapping(value = "/hello",method = RequestMethod.GET)
     @PostMapping("/hello")
     public String hello(){
-        return "Hello Spring Boot!!";
+        return "Hello Spring Boot!!1";
     }
 
     @RequestMapping(value = "/test1",method = RequestMethod.GET)
